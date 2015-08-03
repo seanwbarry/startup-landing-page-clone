@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+
+*,*:before,*:after{
+  box-sizing:inherit;
+}
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
@@ -452,41 +460,45 @@ div {
   z-index: 9999;
 }
 
-.top-navigation > .content {
+.top-navigation .content {
   height: 4.375rem;
+  
 }
 
 /*when to use classes vs ids?*/
 /*what is happening with the image resizing here? understand the height and width stuff...?! */
 .top-navigation .logo {
-  background:transparent url("../images/Karma_logo.png") no-repeat center left;
-  background-size:contain;
+  /*background:transparent url("../images/Karma_logo.png") no-repeat center left;*/
+  
   height:3.375rem;
   width:2.912rem;
   margin: .5rem 0;
-  text-indent: -999em;
   float:left;
 }
 
 
 
 /*difference between float and text-align?? here?*/
+
 .top-navigation .links {
   float: right;
   color: #838994;
   font-size: 1.04rem;
   margin-top: 1.7rem;
-}
 
+}
+ 
 /*what does list-style-type do?*/
+
 .top-navigation .links li {
   display: inline-block;
   margin-left: 1.563rem;
+  
 }
 
 .top-navigation .links li.active {
   color:#4c5058;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .top-navigation .links li:hover {
