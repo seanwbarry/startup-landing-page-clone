@@ -464,22 +464,6 @@ th {
   box-sizing: border-box;
 }
 
-.big-button {
-  text-shadow: none;
-  border-style: none;
-  border-radius: 4px;
-  padding: 16px 26px;
-  line-height: 1.33;
-  color: #fff;
-  background-color: #fa8d2c;
-  font-size: 1.6em;
-  margin-top: 10px;
-}
-
-.big-button:hover {
-  background-color: #f15d2c;
-}
-
 /*what is happening with the image resizing here? understand the height and width stuff...?! */
 .top-navigation .logo {
   /*background:transparent url("../images/Karma_logo.png") no-repeat center left;*/
@@ -490,8 +474,6 @@ th {
   float:left;
 }
 
-
-
 /*difference between float and text-align?? here?*/
 
 .top-navigation .links {
@@ -499,7 +481,6 @@ th {
   color: #838994;
   font-size: 1.04rem;
   margin-top: 1.7rem;
-
 }
  
 /*what does list-style-type do?*/
@@ -507,7 +488,6 @@ th {
 .top-navigation .links li {
   display: inline-block;
   margin-left: 1.563rem;
-  
 }
 
 .top-navigation .links li.active {
@@ -526,9 +506,7 @@ th {
   background-attachment: fixed;
   background-size: cover;
   background-color: #fff;
-  border:2px solid red;
   float:right;
-
 }
 
 .introduction {
@@ -540,8 +518,63 @@ th {
   height: 45.938rem;
   width:100%;
   background-color: #fff;
-  border:2px solid red;
   float:right;
+}
+
+.three-is-good {
+  color:#4c5058;
+  padding: 0 0.938rem;
+  margin: 300px auto 0;
+  min-width: 37.5rem;
+  /*color:#fff;*/
+  text-align: center;
+  font-family:'Roboto';
+  box-sizing: border-box;
+}
+
+.display-inline {
+  display: inline-block;
+  padding:0 4.75rem;
+/*min-width: 37.5rem;*/
+}
+
+.big-button {
+  text-shadow: none;
+  border-style: none;
+  border-radius: 4px;
+  padding: 16px 26px;
+  line-height: 1.33;
+  color: #fff;
+  background-color: #fa8d2c;
+  font-size: 1.6em;
+  margin-top: 10px;
+}
+
+.big-button:hover {
+  background-color: #f15d2c;
+}
+
+.footer {
+  text-align: center;
+}
+
+.circle {
+  border-radius: 1.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: inline-block;
+  margin: 1.25rem 5px;
+  border: 1px solid #eaebec;
+  padding: 0.625rem 0;
+  text-align: center;
+}
+
+.align {
+  text-align: center;
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 /**
